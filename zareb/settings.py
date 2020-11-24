@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     #my apps
     'blog.apps.BlogConfig',
     'music.apps.MusicConfig',
+    'api.apps.ApiConfig',
     'rest_framework',
 ]
 
