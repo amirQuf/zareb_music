@@ -22,7 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/',include('blog.urls')),
     path('',include('music.urls')),
-    path('',include('api.urls')),
+    path('api/',include('api.urls')),
 ]
 
 

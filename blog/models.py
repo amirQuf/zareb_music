@@ -3,15 +3,15 @@ from django.utils import timezone
 
 class Category(models.Model):
   #parent  = models.ForeignKey(Category)
-  body =models.CharField(max_length= 30)
+  body = models.CharField(max_length= 30)
   slug = models.SlugField(unique=True)
-  status =models.BooleanField()
+  status = models.BooleanField()
   position = models.IntegerField()
   created = models.DateTimeField(auto_now_add =True)    
   def __str__(self):
     return self.body
   class Meta:
-    verbose_name='دستهبندی'
+    verbose_name= 'دستهبندی'
     verbose_name_plural = 'دسته بندی ها'
     ordering =('position',)
 
