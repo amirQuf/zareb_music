@@ -24,7 +24,7 @@ class Album(models.Model):
 class Music(models.Model):
   name = models.CharField(max_length=200 ,verbose_name='نام اهنگ')
   rapper =models.CharField(max_length=200 ,verbose_name='نام خواننده')
-  album = models.ForeignKey(Album,blank =True , null =True,on_delete = models.CASCADE)
+  album = models.ForeignKey(Album,related_name= 'Musics',blank =True , null =True,on_delete = models.CASCADE)
   label =models.CharField(max_length=50 ,verbose_name=' لیبل', blank =True , null =True)
   mix_mastering = models.CharField(max_length=200,blank =True , null =True)
   cover = models.ImageField(upload_to ='music-cover', verbose_name='کاور')
