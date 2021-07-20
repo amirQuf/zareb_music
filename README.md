@@ -6,7 +6,7 @@ thats a site for weblog  and  uploading musics for zareb  by django
 * Bootstrap
 
 # ToDO
--[ ] removing api 
--[ ] mabye front 
--[ ] cleaning 
--[ ]  add some models
+- [ ]removing api 
+- [ ]mabye front 
+- [ ]cleaning 
+- [ ] add some models
