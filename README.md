@@ -1,6 +1,5 @@
 # Zareb_music
 
-<<<<<<< HEAD
 thats a web application for uploading music+ Blog  for a famous rap (Zareb ) in some point like Spotify you can check his work in  sound tracks or every where .
 
 ####  In near future:
@@ -49,4 +48,4 @@ thats a site for weblog  and  uploading musics for zareb  by django
 - [ ] mabye front 
 - [ ] cleaning 
 - [ ] add some models
->>>>>>> a572868bc0bfa7576a7682d697dbf6f66dbaf7ed
+
