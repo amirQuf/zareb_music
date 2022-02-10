@@ -3,7 +3,7 @@ from django.urls import path
 
 # app_name ='music'
 
-# urlpatterns = [
-#   path('',home ,name ='home'),
-#   path('<slug:slug>/<int:pk>', detail , name = 'detail')
-# ]
+urlpatterns = [
+  # path('',home ,name ='home'),
+  # path('<slug:slug>/<int:pk>', detail , name = 'detail')
+]
