@@ -12,9 +12,9 @@ thats a web application for uploading music+ Blog  for a famous rap (Zareb ) in 
 
 - [ ] **add a music video section** 
 
-- [ ] **fixing some bugs in code in rest frame work** 
+- [x] **fixing some bugs in code in rest frame work** 
 
-- [ ] **adding a comment section** 
+- [x] **adding a comment section** 
 
   
 
@@ -44,8 +44,8 @@ thats a site for weblog  and  uploading musics for zareb  by django
 * Bootstrap
 
 # ToDO
-- [ ] removing api 
+- [x] removing api 
 - [ ] mabye front 
-- [ ] cleaning 
+- [x] cleaning 
 - [ ] add some models
 
